@@ -14,9 +14,17 @@
       height: 500px;
       font-size: 20px;
     }
+    .title{
+      width: 100%;
+      font-size: 20px;
+      font-family: sans-serif;
+      padding: 20px 45%;
+      color: gray;
+    }
   </style>
 </head>
 <body>
+    <div class="title">Morse Code</div>
     <textarea id="inputText" onkeyup="textToMorse()" placeholder="Enter Plain-Text here..."></textarea>
     <textarea id="outputMorse" onkeyup="morseToText()" placeholder="Or Enter Morse Code here..."></textarea>
 </body>
