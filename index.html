@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Morse Code</title>
+  <script src="./toText.js"></script>
+  <script src="./toMorse.js"></script>
+  <style>
+    #inputText, #outputMorse{
+      width: 49%;
+      height: 500px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+    <textarea id="inputText" onkeyup="textToMorse()"></textarea>
+    <textarea id="outputMorse" onkeyup="morseToText()"></textarea>
+</body>
+</html>
